@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:netl
-LIBS:badge-cache
+LIBS:serial-charger-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -315,7 +315,7 @@ $EndComp
 Wire Wire Line
 	6000 5750 5950 5750
 Wire Wire Line
-	5950 5750 5950 6050
+	5950 5650 5950 6050
 Text GLabel 7650 5950 2    60   BiDi ~ 0
 VBat
 Wire Wire Line
@@ -517,4 +517,7 @@ Wire Wire Line
 Connection ~ 1050 5100
 Wire Wire Line
 	2000 4100 2000 4250
+Wire Wire Line
+	6450 5650 5950 5650
+Connection ~ 5950 5750
 $EndSCHEMATC
