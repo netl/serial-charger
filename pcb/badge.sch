@@ -124,8 +124,6 @@ Text GLabel 4600 5600 0    60   Input ~ 0
 TX
 Text GLabel 2100 4250 2    60   Output ~ 0
 U_OUT
-Text GLabel 1550 4400 0    60   Input ~ 0
-3V3
 Text GLabel 1550 4100 0    60   Input ~ 0
 V_USB
 $Comp
@@ -133,21 +131,10 @@ L R 0R1
 U 1 1 57C30031
 P 1750 4100
 F 0 "0R1" V 1830 4100 50  0000 C CNN
-F 1 "R" V 1750 4100 50  0000 C CNN
+F 1 "0R" V 1750 4100 50  0000 C CNN
 F 2 "netl:SMD_0603" V 1680 4100 50  0001 C CNN
 F 3 "" H 1750 4100 50  0000 C CNN
 	1    1750 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L R 0R3
-U 1 1 57C30081
-P 1750 4400
-F 0 "0R3" V 1830 4400 50  0000 C CNN
-F 1 "R" V 1750 4400 50  0000 C CNN
-F 2 "netl:SMD_0603" V 1680 4400 50  0001 C CNN
-F 3 "" H 1750 4400 50  0000 C CNN
-	1    1750 4400
 	0    1    1    0   
 $EndComp
 $Comp
@@ -155,16 +142,16 @@ L R 0R2
 U 1 1 57C300C9
 P 1750 4250
 F 0 "0R2" V 1830 4250 50  0000 C CNN
-F 1 "R" V 1750 4250 50  0000 C CNN
+F 1 "0R" V 1750 4250 50  0000 C CNN
 F 2 "netl:SMD_0603" V 1680 4250 50  0001 C CNN
 F 3 "" H 1750 4250 50  0000 C CNN
 	1    1750 4250
 	0    1    1    0   
 $EndComp
-Text Notes 1250 4600 0    60   ~ 0
+Text Notes 1150 4450 0    60   ~ 0
 place only one, dumbass.
-Text Notes 1050 4000 0    60   ~ 0
-use if no reference from MCU available
+Text Notes 900  4000 0    60   ~ 0
+output voltage for powering the mcu
 $Comp
 L GND #PWR04
 U 1 1 57C325B8
@@ -266,16 +253,10 @@ Wire Wire Line
 Wire Wire Line
 	1600 4250 1550 4250
 Wire Wire Line
-	1550 4400 1600 4400
-Wire Wire Line
 	1600 4100 1550 4100
 Wire Wire Line
 	1900 4250 2100 4250
-Wire Wire Line
-	2000 4100 2000 4400
 Connection ~ 2000 4250
-Wire Wire Line
-	2000 4400 1900 4400
 Wire Wire Line
 	1800 2450 1800 2400
 Wire Wire Line
@@ -534,4 +515,6 @@ Connection ~ 1050 5550
 Wire Wire Line
 	1150 5100 1050 5100
 Connection ~ 1050 5100
+Wire Wire Line
+	2000 4100 2000 4250
 $EndSCHEMATC

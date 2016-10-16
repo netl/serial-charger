@@ -1,4 +1,4 @@
-update=Sat 08 Oct 2016 03:29:53 PM EEST
+update=su 16. lokakuuta 2016 13.04.09
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/netl/kicad/lib/netl
+LibName30=/home/netl/git/kicadLib/netl
