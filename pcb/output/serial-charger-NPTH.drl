@@ -1,0 +1,18 @@
+M48
+;DRILL file {KiCad 4.0.2+dfsg1-stable} date su  5. maaliskuuta 2017 13.54.16
+;FORMAT={-:-/ absolute / metric / decimal}
+FMAT,2
+METRIC,TZ
+T1C2.390
+T2C3.450
+%
+G90
+G05
+M71
+T1
+X185.93Y-92.
+T2
+X122.4Y-92.
+X177.6Y-108.
+T0
+M30

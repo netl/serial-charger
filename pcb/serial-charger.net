@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/netl/git/serial-charger/pcb/serial-charger.sch)
-    (date "Sat 04 Mar 2017 07:02:28 PM EET")
-    (tool "Eeschema 4.0.2+dfsg1-2~bpo8+1-stable")
+    (date "su  5. maaliskuuta 2017 11.14.52")
+    (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -148,7 +148,7 @@
       (tstamp 58B8750F))
     (comp (ref D2)
       (value D)
-      (footprint netl:DO-214AC)
+      (footprint netl:SMD_0603)
       (libsource (lib device) (part D))
       (sheetpath (names /) (tstamps /))
       (tstamp 58B87669))
@@ -582,12 +582,12 @@
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical atmel)
       (uri /usr/share/kicad/library/atmel.lib))
     (library (logical netl)
-      (uri /usr/share/kicad/library/netl.lib)))
+      (uri /home/netl/git/kicadLib/netl.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref C1) (pin 2))
