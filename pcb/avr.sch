@@ -537,7 +537,7 @@ Wire Wire Line
 	10400 4300 10350 4300
 Wire Wire Line
 	10350 4300 10350 4350
-Text Label 6700 4400 0    60   ~ 0
+Text Label 6700 4500 0    60   ~ 0
 LED_SRIP
 Text Label 10350 4200 2    60   ~ 0
 LED_SRIP
@@ -594,4 +594,6 @@ F 3 "" H 4800 4050 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6850 2600 6700 2600
+Text Label 6700 4400 0    60   ~ 0
+BTN
 $EndSCHEMATC
