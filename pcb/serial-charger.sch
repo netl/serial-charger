@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:serial-charger-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +30,20 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:netl
+LIBS:SeeedOPL-Capacitor-2016
+LIBS:SeeedOPL-Connector-2016
+LIBS:SeeedOPL-Crystal Oscillator-2016
+LIBS:SeeedOPL-Diode-2016
+LIBS:SeeedOPL-Display-2016
+LIBS:SeeedOPL-Fuse-2016
+LIBS:SeeedOPL-IC-2016
+LIBS:SeeedOPL-Inductor-2016
+LIBS:SeeedOPL-LED-2016
+LIBS:SeeedOPL-Relay-2016
+LIBS:SeeedOPL-Resistor-2016
+LIBS:SeeedOPL-Sensor-2016
+LIBS:SeeedOPL-Switch-2016
+LIBS:SeeedOPL-Transistor-2016
 LIBS:serial-charger-cache
 EELAYER 25 0
 EELAYER END
@@ -45,7 +60,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L USB_OTG P101
+L USB_OTG-RESCUE-serial-charger P101
 U 1 1 55AEBD84
 P 1900 2900
 F 0 "P101" H 2225 2775 50  0000 C CNN
